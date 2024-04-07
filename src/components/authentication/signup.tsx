@@ -20,6 +20,7 @@ const SignUp = () => {
                     <a>Forgot your password?</a>
                     <button className="auth_button">Sign in</button>
                     <p className="auth_mobile">Don't have an account?<a href="#" onClick={switch_side}>Sign up</a></p>
+                    <button className="guest_signin_button">Sign in as a guest</button>    
                 </div>
                 <div className="signup" style={{opacity: !switchSide ? 1 : 0, visibility: !switchSide ? "visible" : "hidden", transform: !switchSide ? "translateX(100%)" : "translateX(75%)"}}>
                     <h2>Create Account</h2>
