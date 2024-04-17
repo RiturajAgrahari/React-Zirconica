@@ -1,5 +1,5 @@
 import "./confirmEmail.css"
-import { useRef, ChangeEvent, useState, useEffect } from "react";
+import { useRef, ChangeEvent, useState } from "react";
 
 
     const ConfirmEmail = () => {
